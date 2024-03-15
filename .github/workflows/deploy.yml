@@ -16,7 +16,7 @@ jobs:
           submodules: true
           lfs: true
       - name: Build only
-        uses: shalzz/zola-deploy-action@v0.17.2
+        uses: shalzz/zola-deploy-action@v0.18.0
         env:
           BUILD_DIR: ./
           BUILD_ONLY: true
