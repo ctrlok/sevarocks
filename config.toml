@@ -38,7 +38,7 @@ menu = [
 
 repo_url = "https://github.com/ctrlok/sevarocks/tree/main/content/"
 
-analytics = { enabled = true, umami = { website_id = "bc58cc3c-a06f-47d3-a4ed-5373327b9f8d", host_url = "https://seva.rocks" } }
+analytics = { enabled = true, umami = { website_id = "bc58cc3c-a06f-47d3-a4ed-5373327b9f8d" } }
 
 custom_css = []
 
