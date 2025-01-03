@@ -46,7 +46,7 @@ code {
 }
 
 .note-content {
-    background-color: white;
+    background-color: var(--background-color);
 }
 
 /*.body {*/
