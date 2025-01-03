@@ -8,6 +8,7 @@ compile_sass = true
 build_search_index = true
 
 theme = "apollo"
+titel = "Seva Rocks"
 
 generate_feed = true
 
@@ -21,7 +22,9 @@ extra_syntaxes_and_themes = ["syntaxes/Terraform.tmLanguage", "syntaxes/"]
 
 [extra]
 # Put all your custom variables here
-toc = true
+fancy_code = true
+dynamic_note = true
+toc = false
 use_cdn = false
 favicon = "/icon/favicon.png"    # Path to the favicon
 theme = "auto"
@@ -34,9 +37,7 @@ menu = [
     { name = "/about", url = "/about", weight = 2 },
 ]
 
-socials = [
-    { name = "github", url = "https=//github.com/ctrlok", icon = "github" },
-]
+repo_url = "https://github.com/ctrlok/sevarocks/tree/main/content/"
 
 analytics = { enabled = true, plausible_script = "https://plausible.io/js/script.js", plausible_domain = "seva.rocks" }
 

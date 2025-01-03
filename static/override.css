@@ -1,12 +1,83 @@
 
 :root {
-    --primary-color: #f876de;
+    --primary-color: #f876de !important;
     --secondary-color: #7ee8fa;
     --border-color: #161616;
     --text-font: 'iA Writer Quattro S';
     /*--text-font: 'Helvetica';*/
     --header-font: 'Space Grotesk';
     --code-font: 'Jetbrains Mono';
+}
+
+.page-header {
+    font-size: 3rem;
+    line-height: 2.5rem;
+    font-family: var(--header-font);
+    margin: 0rem 0px 4px 0px;
+}
+
+pre:not(.mermaid) {
+    background-color: #161616 !important;
+}
+
+pre code {
+    color: whitesmoke !important;
+}
+
+.foldable {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+code {
+    background-color: var(--secondary-color);
+}
+
+.note-header, .note-toggle {
+    background-color: var(--primary-color);
+}
+
+.note-icon {
+    color: var(--text-0);
+}
+
+.note-icon:before {
+    color: var(--text-0);
+}
+
+.note-content {
+    background-color: white;
+}
+
+.body {
+  margin-top: 1.5rem;
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+p + p {
+    margin-block-start: 1.18em;
+    margin-block-end: 1.18em;
+}
+
+p + p img {
+  margin-top: 1.68em;
+  margin-bottom: 1.25em;
+}
+
+p + h1 {
+    margin-block-start: 4.25rem;
+}
+
+h1 + p {
+    margin-block-start: 1.18em;
+}
+
+h1 {
+    font-size: 1.6rem;
 }
 
 
@@ -56,6 +127,14 @@ article .title::before {
 
 a {
     color: var(--text-0);
+}
+
+.meta {
+font-size: 0.75em;
+}
+
+html {
+font-size: 16px;
 }
 
 strong, b {
