@@ -1,5 +1,4 @@
 +++
-path = "posts"
 title = "Пости"
 template = "posts.html"
 transparent = true

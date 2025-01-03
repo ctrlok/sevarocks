@@ -8,9 +8,8 @@ compile_sass = true
 build_search_index = true
 
 theme = "apollo"
-title = "Seva Rocks"
 
-generate_feed = true
+generate_feeds = true
 
 
 [markdown]
