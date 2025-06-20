@@ -13,7 +13,7 @@ date = "2023-05-10"
 
 Далі приведу деякі приклади з того що воно вміє робити і як зробити його корисним для девопсів. 
 
-![is is working](/images/asd.jpg)
+![is is working](https://static.seva.rocks/images/asd.jpg)
 
 
 # З чого почати
@@ -172,7 +172,7 @@ My request:
 
 Проблема в тому, що сценаріїв використання якось багато. Тому поділюся хаком — усі ці *раніше безкорисні* експандери тексту сталі набагато кориснішими зараз. 
 
-![expanders](/images/expanders.jpg)
+![expanders](https://static.seva.rocks/images/expanders.jpg)
 
 Для прикладу, я використовую безкоштовний [espanso](https://espanso.org) з таким конфигом: 
 

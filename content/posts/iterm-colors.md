@@ -13,14 +13,14 @@ date = "2024-03-20"
 
 Нижче розповім як я змінюю колір терміналу в залежності від kubernetes context чи терраформу. 
 
-![](/images/iterm/color_change.gif)
+![](https://static.seva.rocks/images/iterm/color_change.gif)
 
 
 # Початок
 
 Для початку треба мати встановлену shell integration для iTerm. 
 
-![](/images/iterm/shell_int.png)
+![](https://static.seva.rocks/images/iterm/shell_int.png)
 
 І наступним кроком створити профіль у налаштуваннях айтерму. 
 
@@ -39,7 +39,7 @@ date = "2024-03-20"
 
 Для цього заходимо в налаштування профілю **production**, і йдемо у вкладу advanced, де додаємо `/*prod`
 
-![](/images/iterm/tfm_dir.png)
+![](https://static.seva.rocks/images/iterm/tfm_dir.png)
 
 Префікс `/` нам потрібен для того щоб iTerm розумів що мова йде про директорію. А зірочки `*` — це звичайні вайлдкарди. 
 
@@ -49,7 +49,7 @@ date = "2024-03-20"
 
 Для початку йдемо в **дефолтний** профіль, заходимо в Advanced налаштування, бачимо Triggers і тицяємо Edit. 
 
-![](/images/iterm/trigger.png)
+![](https://static.seva.rocks/images/iterm/trigger.png)
 
 
 В якості тригеру iTerm приймає регулярний вираз. В моєму випадку це `\[production\|`, оскільки я використовую [kubie](https://github.com/sbstp/kubie) для зміни контексту і саме це воно пише у термінал. В вашому випадку може бути щось інше. 
@@ -60,7 +60,7 @@ date = "2024-03-20"
 
 Ми фактично не змінюємо користувача, але айтерму повідомляємо що користувач інший, адже далі ми йдемо у Advanced налаштування нашого **production** профілю та додаємо правило для автоматичного переключання, якщо користувач `kuberoot@`
 
-![](/images/iterm/rootroot.png)
+![](https://static.seva.rocks/images/iterm/rootroot.png)
 
 Ось і все. Працює як годинник. Далі за аналогією можна зробити налаштування для інших програм чи ssh підключень, чи докеру чи чого завгодно. 
 

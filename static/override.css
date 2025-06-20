@@ -1,17 +1,17 @@
 
 :root {
-    --primary-color: #f876de !important;
+    /* --primary-color: #f876de !important;
     --secondary-color: #7ee8fa;
-    --border-color: #161616;
-    --base-font: 'iA Writer Quattro S' !important;
+    --border-color: #161616; */
+     --base-font: 'iA Writer Quattro S' !important;
     /*--text-font: 'Helvetica';*/
-    --header-font: 'Space Grotesk';
+    /* --header-font: 'Space Grotesk'; */
     --code-font: 'Jetbrains Mono';
 }
 
-/*body {*/
-/*    font-family: 'iA Writer Quattro S', var(--base-font), sans-serif !important;*/
-/*}*/
+body {
+    font-family: 'iA Writer Quattro S', var(--base-font), sans-serif !important;
+}
 
 /*.page-header {*/
 /*    font-size: 3rem;*/
@@ -98,9 +98,9 @@
     font-display: swap;
 }
 
-/*code {*/
-/*    font-family: var(--code-font);*/
-/*}*/
+code {
+    font-family: var(--code-font);
+}
 
 
 /*h1, h2, h3, h4, h5, h6 {*/

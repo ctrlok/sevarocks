@@ -18,6 +18,9 @@ generate_feeds = true
 highlight_code = true
 highlight_theme = "css"
 extra_syntaxes_and_themes = ["syntaxes/Terraform.tmLanguage", "syntaxes/"]
+definition_list = true
+github_alerts = true
+heading_attributes = true
 
 [extra]
 # Put all your custom variables here
@@ -26,18 +29,16 @@ fancy_code = true
 dynamic_note = true
 toc = false
 use_cdn = false
-favicon = "/icon/favicon.png"    # Path to the favicon
+favicon = "https://static.seva.rocks/icon/favicon.png"    # Path to the favicon
 theme = "auto"
 copyright = "Vsevolod Poliakov, 2023; All rights reserved"
 
-github_repository = "ctrlok/sevarocks"
 
 menu = [
-    { name = "/posts", url = "/posts", weight = 1 },
-    { name = "/about", url = "/about", weight = 2 },
+    { name = "/blog", url = "/", weight = 1 },
+    { name = "/rss", url = "/atom.xml", weight = 2 },
+    { name = "/about", url = "/about", weight = 3 },
 ]
-
-repo_url = "https://github.com/ctrlok/sevarocks/tree/main/content/"
 
 analytics = { enabled = true, umami = { website_id = "bc58cc3c-a06f-47d3-a4ed-5373327b9f8d" } }
 
@@ -46,3 +47,6 @@ custom_css = []
 stylesheets = [
     "override.css",
 ]
+
+[extra.edit_post]
+github_repo = "ctrlok/sevarocks"
