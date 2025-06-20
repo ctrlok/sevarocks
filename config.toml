@@ -7,7 +7,7 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
-theme = "apollo"
+theme = "pechersk"
 
 generate_feeds = true
 
@@ -16,11 +16,12 @@ generate_feeds = true
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
-highlight_theme = "github2"
+highlight_theme = "css"
 extra_syntaxes_and_themes = ["syntaxes/Terraform.tmLanguage", "syntaxes/"]
 
 [extra]
 # Put all your custom variables here
+flavor = "happy"
 fancy_code = true
 dynamic_note = true
 toc = false
