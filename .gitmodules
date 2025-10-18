@@ -1,3 +1,7 @@
 [submodule "syntaxes/Terraform.tmLanguage"]
 	path = syntaxes/Terraform.tmLanguage
 	url = https://github.com/alexlouden/Terraform.tmLanguage.git
+[submodule "themes/pechersk"]
+	path = themes/pechersk
+	url = https://github.com/ctrlok/zola-pechersk
+        branch = main
