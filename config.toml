@@ -17,7 +17,7 @@ generate_feeds = true
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
 highlight_theme = "css"
-extra_syntaxes_and_themes = ["syntaxes/Terraform.tmLanguage", "syntaxes/"]
+extra_syntaxes_and_themes = ["syntaxes/Terraform.tmLanguage/Terraform.sublime-syntax"]
 definition_list = true
 github_alerts = true
 heading_attributes = true
