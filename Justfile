@@ -12,3 +12,8 @@ check-images:
 # Replace local image paths with https://static.seva.rocks/images/
 fix-images:
     find content/posts/ -type f -name "*.md" -exec sed -i '' 's|!\[\([^]]*\)\](/images/\([^)]*\))|![\1](https://static.seva.rocks/images/\2)|g' {} \;
+
+# Link pechersk theme from ../zola-pechersk
+link-theme:
+    rm -rf themes/pechersk
+    ln -s ../../../zola-pechersk themes/pechersk
