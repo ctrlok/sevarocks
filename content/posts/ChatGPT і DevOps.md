@@ -1,6 +1,8 @@
 +++
 title = "ChatGPT і DevOps"
 date = "2023-05-10"
+description = "Усі пишуть про ChatGPT, а я теж напишу. Скоріш за все це не актуально через місяць, але хай буде."
+og_image = "https://static.seva.rocks/images/asd.jpg"
 +++
 
 Ні, цей допис не написало ChatGPT. Воно ще не вміє це робити на достатньому (для мене) рівні. 

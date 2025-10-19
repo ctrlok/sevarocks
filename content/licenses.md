@@ -2,7 +2,7 @@
 title = "Licenses"
 path = "licenses"
 extra.toc = false
-	date = "1987-08-25"
+date = "2025-10-19"
 +++
 
 # Fonts
@@ -13,6 +13,5 @@ extra.toc = false
 # Content
 Content is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
-# Other 
+# Other
 * [zola static generator](https://github.com/getzola/zola/blob/master/LICENSE)
-* [apolo theme](https://github.com/not-matthias/apollo)

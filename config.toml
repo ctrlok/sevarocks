@@ -3,6 +3,7 @@ base_url = "https://seva.rocks"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
+minify_html = true
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
@@ -21,6 +22,7 @@ extra_syntaxes_and_themes = ["syntaxes/Terraform.tmLanguage/Terraform.sublime-sy
 definition_list = true
 github_alerts = true
 heading_attributes = true
+lazy_async_image = true
 
 [extra]
 # Put all your custom variables here
@@ -30,8 +32,12 @@ dynamic_note = true
 toc = false
 use_cdn = false
 favicon = "https://static.seva.rocks/icon/favicon.png"    # Path to the favicon
+og_image = "https://static.seva.rocks/icon/favicon.png"    # Path to the favicon
+
+# Optional twitter username
+# twitter_username = "ctrlok"
+
 theme = "auto"
-copyright = "Vsevolod Poliakov, 2023; All rights reserved"
 
 
 menu = [
