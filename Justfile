@@ -134,7 +134,8 @@ update-submodule: check-theme-updates
         echo "Into: $CURRENT_JJ_COMMIT"
 
         # # Squash the new commit into the current one
-        # jj squash --from "$NEW_JJ_CHANGE" --into "$CURRENT_JJ_COMMIT"
+        echo "Example command for squashing:"
+        echo jj squash --from "$NEW_JJ_CHANGE" --into "$CURRENT_JJ_COMMIT"
 
         echo "✅ Submodule updated and squashed into current commit!"
     else
