@@ -2,6 +2,7 @@
 title = "Зміна кольору терміналу, в залежності від оточення"
 date = "2024-03-20"
 description = "Як змінювати колір iTerm в залежності від kubernetes context чи терраформу. TLDR: різні чаткові профілі і тригери до них які залежать від директорії чи виводу терміналу."
+[extra]
 og_image = "https://static.seva.rocks/images/iterm/color_change.gif"
 +++
 

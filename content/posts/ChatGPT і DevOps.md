@@ -2,6 +2,7 @@
 title = "ChatGPT і DevOps"
 date = "2023-05-10"
 description = "Усі пишуть про ChatGPT, а я теж напишу. Скоріш за все це не актуально через місяць, але хай буде."
+[extra]
 og_image = "https://static.seva.rocks/images/asd.jpg"
 +++
 

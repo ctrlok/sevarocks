@@ -2,6 +2,7 @@
 title = "Як обчислювати RPS"
 date = "2023-12-25"
 description = "Я втикнувся в невизначеність обчислення RPS і трішки подумав думки думками. В стилі казки для дітей."
+[extra]
 og_image = "https://static.seva.rocks/images/rps/image2.jpg"
 +++
 
