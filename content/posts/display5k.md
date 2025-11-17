@@ -1,7 +1,7 @@
 +++
 title = "Чи 5к монітор вартий того"
 date = "2025-11-16"
-description = "Тестування 5к монітору"
+description = "Тестування 5к монітору і порівняння його з 4к + фотографії пікселів тексту"
 [extra]
 og_image = "https://static.seva.rocks/images/display/displ8px.png"
 +++
