@@ -2,6 +2,7 @@
 title = "About"
 path = "about"
 date = "2025-10-19"
+updated = "2025-11-17"
 +++
 
 Дякую. Ви у блозі Сєви Полякова. 
@@ -11,10 +12,10 @@ date = "2025-10-19"
 Також у мене є два телеграми: 
 
 * Для девопсів: [Україньска девопсарня](https://t.me/UkropsDigest)
-* Усяке різне: [Севодоканал](https://t.me/devops_tricks)
+* Усяке різне: Сєводоканал (приватний)
 
 Не забувайте реєструватися у найбільшій україньскій спільноті 
-девопсів: [ukrops](https://ukrops.club)
+девопсів: [ukrops](https://join.slack.com/t/ukrops/shared_invite/zt-3j3dlnhi8-BRh9JhMwu8Z10cgMxCWJig)
 
 # Про мене
 
